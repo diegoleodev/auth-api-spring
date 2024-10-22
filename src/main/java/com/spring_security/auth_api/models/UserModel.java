@@ -4,7 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
 @Entity
-@Table()
+@Table(name = "tb-user")
 public class UserModel {
 
 }
